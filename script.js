@@ -72,19 +72,16 @@ contactForm.addEventListener('submit', async (e) => {
     // Log form data (replace with actual form submission logic)
     console.log('Form submitted:', data);
     
-    // Show success message
-    alert('Thanks for reaching out! This is a demo form. Connect it to your email service.');
     
-    // Reset form
     contactForm.reset();
     
     // TODO: Replace with actual form submission
     // Example options:
     
-    // OPTION 1: Formspree
-    /*
+    OPTION 1: Formspree
+    
     try {
-        const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        const response = await fetch('https://formspree.io/f/xeeeqbed', {
             method: 'POST',
             body: formData,
             headers: {
