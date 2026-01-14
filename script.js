@@ -60,6 +60,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+
 // Contact Form Handling
 const contactForm = document.getElementById('contactForm');
 
@@ -78,7 +79,6 @@ contactForm.addEventListener('submit', async (e) => {
     // TODO: Replace with actual form submission
     // Example options:
     
-    OPTION 1: Formspree
     
     try {
         const response = await fetch('https://formspree.io/f/xeeeqbed', {
